@@ -2,12 +2,20 @@
     --gray: #CCCCCC;
   }
 
+footer{
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  font-size: 10px;
+  margin-top: 12%;
+  padding-bottom: 0%;
+}
+
 body{
   font-family: adobe-caslon-pro, serif;
   margin-left: 2%;
   margin-right: 2%;
   overflow-x: hidden;
-  padding-bottom: 10%;
 }
 a{
   text-decoration: none;
@@ -162,4 +170,17 @@ li{
 }
 .section-head{
   display: block;
+}
+
+/* Letter from Editor style */
+.le-title{
+  text-align: center;
+  margin-top: 5%;
+}
+.le-content{
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
