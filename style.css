@@ -105,6 +105,9 @@ a:hover{
 }
 .show {display: block;}
 
+.centered img{
+  margin-bottom: 10%
+}
 
 /* Feature Gallery */
 .feature-gallery{
@@ -317,10 +320,19 @@ li{
   height: auto;
   grid-template-columns: 1fr 1fr;
 }
-.int-para{
+.int-para {
+  display: flex;
+  align-items: flex-start;
   margin-top: 5%;
-  width: 80%
+  width: 80%;
 }
-.name-int{
-  margin-right: 4%;
+
+.name-int {
+  min-width: 3em;
+  flex-shrink: 0;
+}
+
+.para-text {
+  text-indent: 0;
+  padding-left: 1em; /* spacing between initial and paragraph */
 }
